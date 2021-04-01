@@ -1,0 +1,403 @@
+//#region Description
+/* 
+
+  Author: Duncan McBryan
+  Date of Creation:
+  Updated:
+  Description:
+
+ */
+//#endregion
+
+//#region Repository
+const REPOSITORY = [
+  {
+    "name":"A",
+    "image":"A.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },
+  {
+    "name":"B",
+    "image":"B.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },
+  {
+    "name":"C",
+    "image":"C.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"D",
+    "image":"D.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"E",
+    "image":"E.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"F",
+    "image":"F.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"G",
+    "image":"G.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"H",
+    "image":"H.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"I",
+    "image":"I.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"J",
+    "image":"J.png",
+    "tips":"Swoop pinky finger towards yourself.",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"K",
+    "image":"K.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"L",
+    "image":"L.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"M",
+    "image":"M.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"N",
+    "image":"N.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"O",
+    "image":"O.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"P",
+    "image":"P.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"Q",
+    "image":"Q.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"R",
+    "image":"R.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"S",
+    "image":"S.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"T",
+    "image":"T.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"U",
+    "image":"U.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"V",
+    "image":"V.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"W",
+    "image":"W.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"X",
+    "image":"X.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"Y",
+    "image":"Y.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"Z",
+    "image":"Z.png",
+    "tips":"Mimic the letter Z with the end of your finger",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"Hello",
+    "image":"Hello.png",
+    "tips":"Like a salute",
+    "about":""
+  },{
+    "name":"GoodBye",
+    "image":"GoodBye.png",
+    "tips":"Move fingers towards palm",
+    "about":""
+  },{
+    "name":"My",
+    "image":"My.png",
+    "tips":"Pat chest",
+    "about":""
+  },{
+    "name":"Name",
+    "image":"Name.png",
+    "tips":"Tap fingers together twice",
+    "about":""
+  },{
+    "name":"Your",
+    "image":"Your.png",
+    "tips":"",
+    "about":""
+  },{
+    "name":"They",
+    "image":"They.png",
+    "tips":"Move finger across body",
+    "about":""
+  },{
+    "name":"What",
+    "image":"What.png",
+    "tips":"Make a frowning face when asking a question using what",
+    "about":""
+  },{
+    "name":"How",
+    "image":"How.png",
+    "tips":"Raise eyebrows when asking someone how",
+    "about":""
+  },{
+    "name":"Why",
+    "image":"Why.png",
+    "tips":"Make a frowning face when asking why",
+    "about":""
+  },{
+    "name":"Where",
+    "image":"Where.png",
+    "tips":"Make a small circle with your finger",
+    "about":""
+  },
+
+];
+//#endregion
+
+//#region Alphabet
+const LESSON1 = [
+  {
+    "name":"A",
+    "image":"A.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },
+  {
+    "name":"B",
+    "image":"B.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },
+  {
+    "name":"C",
+    "image":"C.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"D",
+    "image":"D.png",
+    "tips":"Repetition is the most important thing when learning",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"E",
+    "image":"E.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"F",
+    "image":"F.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"G",
+    "image":"G.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"H",
+    "image":"H.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"I",
+    "image":"I.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"J",
+    "image":"J.png",
+    "tips":"Swoop pinky finger towards yourself.",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"K",
+    "image":"K.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"L",
+    "image":"L.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"M",
+    "image":"M.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"N",
+    "image":"N.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"O",
+    "image":"O.png",
+    "tips":"Try spelling every day objects",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"P",
+    "image":"P.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"Q",
+    "image":"Q.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"R",
+    "image":"R.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"S",
+    "image":"S.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"T",
+    "image":"T.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"U",
+    "image":"U.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"V",
+    "image":"V.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"W",
+    "image":"W.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"X",
+    "image":"X.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"Y",
+    "image":"Y.png",
+    "tips":"",
+    "about":"https://www.freepik.com/vectors/hand"
+  },{
+    "name":"Z",
+    "image":"Z.png",
+    "tips":"Mimic the letter Z with the end of your finger",
+    "about":"https://www.freepik.com/vectors/hand"
+  },
+];
+//#endregion
+
+//#region Basic Signs
+const LESSON2 = [
+  {
+    "index":0,
+    "name":"Hello",
+    "image":"Hello.png",
+    "tips":"Like a salute",
+    "about":""
+  },{
+    "index":1,
+    "name":"GoodBye",
+    "image":"GoodBye.png",
+    "tips":"Move fingers towards palm",
+    "about":""
+  },{
+    "index":2,
+    "name":"My",
+    "image":"My.png",
+    "tips":"Pat chest",
+    "about":""
+  },{
+    "index":3,
+    "name":"Name",
+    "image":"Name.png",
+    "tips":"Tap fingers together twice",
+    "about":""
+  },{
+    "index":4,
+    "name":"Your",
+    "image":"Your.png",
+    "tips":"",
+    "about":""
+  },{
+    "index":5,
+    "name":"They",
+    "image":"They.png",
+    "tips":"Move finger across body",
+    "about":""
+  },{
+    "index":6,
+    "name":"What",
+    "image":"What.png",
+    "tips":"Make a frowning face when asking a question using what",
+    "about":""
+  },{
+    "index":7,
+    "name":"How",
+    "image":"How.png",
+    "tips":"Raise eyebrows when asking someone how",
+    "about":""
+  },{
+    "index":8,
+    "name":"Why",
+    "image":"Why.png",
+    "tips":"Make a frowning face when asking why",
+    "about":""
+  },{
+    "index":9,
+    "name":"Where",
+    "image":"Where.png",
+    "tips":"Make a small circle with your finger",
+    "about":""
+  },
+];
+//#endregion
