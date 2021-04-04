@@ -1,16 +1,8 @@
 # ASL_APP
 
-ASL Application for Capstone
+# INTRODUCTION
+Hello, firstly thank you for visiting my github it means a lot to me that you would show interest in what I have created. This 'ASL APP' is a mobile web application that I am developing to teach American sign language.
 
-## Getting Started
+# HOW TO USE IT
+Currently it is not aviable on the IOS store or android/google play store, you can either run the application on an enviroment that has an embedded emulator or that supports emulators, running the main.dart file located in the lib folder.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
